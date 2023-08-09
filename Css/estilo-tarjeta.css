@@ -165,7 +165,7 @@
     }
 }
 
-@media (max-width: 360px){
+@media (max-width: 412px){
     .profile-wrapper{
         margin: auto;
         width: 200px;

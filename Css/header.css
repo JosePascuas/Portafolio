@@ -68,10 +68,10 @@ body {
   }
 }
 
-@media ( max-width:360px){
+@media ( max-width:412px){
 
   body{
-    width: 360px;
+    width: 412px;
   }
 
   .container__principal{

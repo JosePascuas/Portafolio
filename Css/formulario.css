@@ -132,7 +132,7 @@ textarea{
   }
 }
 
-@media (max-width:360px){
+@media (max-width:412px){
   .formulario{
     padding-bottom: 1rem ;
     padding-top: 1rem;
