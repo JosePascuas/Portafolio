@@ -73,9 +73,10 @@
 
 .social-icons li a {
     position: relative;
-    display: block;
-    display: grid;
-    place-items: center;
+    /* display: block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #fff;
     font-size: 23px;
     font-weight: bold;
@@ -86,6 +87,7 @@
     transition: .2s;
     transform: translateY(32px);
     opacity: 0;
+    display: none;
 }
 
 .social-icons li a:hover {
@@ -106,6 +108,9 @@
 
 .profile:hover .social-icons li a {
     opacity: 1; 
+    display: block;
+    display: grid;
+    place-items: center;
 }
 
 .profile:hover li:nth-child(1) a {
