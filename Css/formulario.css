@@ -133,12 +133,17 @@ textarea{
 }
 
 @media (max-width:360px){
+  .formulario{
+    padding-bottom: 1rem ;
+    padding-top: 1rem;
+  }
   .contenedor__formulario__info{
-    width: 85%;
+    width: 77%;
+    font-size: 0.8rem;
   }
   .contenedor__formulario{
     width: 85%;
-    padding: 3rem 1rem;
+    padding: 0.3rem 1rem;
   }
 }
 
