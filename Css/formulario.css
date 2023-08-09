@@ -123,12 +123,19 @@ textarea{
 
 
 @media (max-width:768px){
+
+  .contenedor__formulario__info{
+    width: 70%;
+  }
   .contenedor__formulario{
     width: 70%;
   }
 }
 
 @media (max-width:360px){
+  .contenedor__formulario__info{
+    width: 85%;
+  }
   .contenedor__formulario{
     width: 85%;
     padding: 3rem 1rem;
