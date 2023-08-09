@@ -1,0 +1,134 @@
+.experiencia__area{
+  margin: auto;
+}
+
+.titulo__experiencia__profesional{
+  color: var(--color-letra);
+  padding: 1rem 0rem;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.proyecto__experiencia{
+  display: flex;
+  margin: auto;
+  padding: 3rem 1rem;
+  width: 59rem;
+  gap: 1rem;
+  align-items: center;
+}
+
+.imagen__encriptador img{
+  width: 35rem;
+  padding-bottom: 2rem;
+}
+
+.contenido__proyecto__experiencia{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 18rem;
+  padding: 0rem 1rem;
+  
+}
+
+.titulo__proyecto{
+  color: var(--color-letra);
+  font-family: Raleway;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.subtitulo__proyecto{
+  color: var(--color-letra);
+  font-family: Raleway;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.botones{
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem 0rem;
+}
+
+.btn__repositorio{
+  color: var(--color-azul);
+  display: flex;
+  width: 7rem;
+  height: 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border: 1px solid var(--color-azul);
+  transition: 0.5s;
+}
+
+
+
+.btn__repositorio:hover{
+  transform: scale(1.1);
+  
+}
+
+.btn__ver__demo{
+  color: var(--color-fondo-blanco);
+  background-color: var(--color-azul);
+  display: flex;
+  width: 6rem;
+  height: 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn__ver__demo:hover{
+  transform: scale(1.1)
+}
+
+@media (max-width:768px){
+  .proyecto__experiencia{
+    width: auto;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .imagen__encriptador img{
+    width: 100%;
+  }
+}
+
+@media (max-width:360px){
+  .proyecto__experiencia{
+    width: auto;
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contenido__proyecto__experiencia {
+    align-items: center;
+  }
+
+  .imagen__encriptador img{
+    width: 100%;
+  }
+
+  .btn__ver__demo{
+    width: 7rem;
+    height: 2rem;
+  }
+}

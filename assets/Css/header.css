@@ -1,0 +1,87 @@
+
+body {
+  background-color: var(--color-fondo-blanco);
+  height: 100vh;
+  margin: 0px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+.nombre__header{
+  font-size: 1rem;
+}
+.container__principal{
+  margin: auto;
+  display: flex;
+  width: 73rem;
+  height: 5.5rem;
+  padding: 2rem 8rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container__simple{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.lista__elementos{
+  display: flex;
+  align-items: center;
+  gap: 0.83rem;
+}
+
+.elemento__nav__lista{
+  color: var(--color-letra);
+  font-family: raleway;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.elemento__nav__lista a{
+  text-decoration: none;
+  color: var(--color-letra);
+}
+
+.elemento__nav__lista a:hover{
+  color: var(--color-de-link);
+}
+
+@media( max-width: 768px){
+  body{
+    width: 768px;
+  }
+  .container__principal{
+    margin: auto;
+    width: auto;
+    padding: 1rem 3rem;
+  }
+
+  .elemento__nav__lista{
+    display: none;
+  }
+
+  .elemento__correo{
+    display: block;
+
+  }
+}
+
+@media ( max-width:360px){
+
+  body{
+    width: 360px;
+  }
+
+  .container__principal{
+    margin: auto;
+    width: auto;
+    padding: 1rem 1rem;
+  }
+
+  .nombre__header{
+    font-size: 0.74;
+  }
+}
+

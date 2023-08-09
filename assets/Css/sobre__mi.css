@@ -1,0 +1,48 @@
+
+.section__sobremi{
+  background-color: var(--color-sobre-mi);
+  display: flex;
+}
+
+.sobremi__principal{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 60rem;
+  gap: 1rem;
+  align-items: flex-start;
+  text-align: justify;
+  padding: 3rem 1.8rem
+}
+
+.sobremi__titulo{
+  color: var(--color-letra);
+  font-family: Raleway;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.sobremi__descripcion{
+  color: var(--color-letra);
+  width: 38rem;
+  font-family: Raleway;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media (max-width: 768px){
+  .sobremi__principal{
+    margin: auto;
+    width: 768px;
+    padding: 2rem 3rem;
+    align-self: stretch;
+  }
+
+  .sobremi__descripcion{
+    margin: auto;
+    width: 100%;
+  }
+}
